@@ -37,6 +37,14 @@ namespace Assignment03
             //B-Invalid, Add validation
             //C-Yes
             #endregion
+            #region Q4
+            //a) What does the `static` keyword mean on `TotalOrders`? How is it different from the `Item` field?
+            //no object from TotalOrders will be created, it is different as all objects can access TotalOrders but not the opposite
+
+            //b) Can a static method inside `Order` access the `Item` field directly? Why or why not?
+            //No because it is not static
+
+            #endregion
         }
     }
 }
