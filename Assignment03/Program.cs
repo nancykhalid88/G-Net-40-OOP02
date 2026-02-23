@@ -20,18 +20,23 @@ namespace Assignment03
             //A feild is a variable that can be assigned a value, it doesnt have validation or constrints on it
             //A property is like a method (not a method) where it can set and get and validation can be added 
             //ex:
-        //    public class Student
-        //{
-        //    private string name;
-        //    public string Name
-        //    {
-        //        get
-        //        {
-        //            return name;
-        //        }
-        //    }
-        //}
-        #endregion
-    }
+            //    public class Student
+            //{
+            //    private string name;
+            //    public string Name
+            //    {
+            //        get
+            //        {
+            //            return name;
+            //        }
+            //    }
+            //}
+            #endregion
+            #region Q3
+            //A- Indexer, lets objects be accessed in an array like way
+            //B-Invalid, Add validation
+            //C-Yes
+            #endregion
+        }
     }
 }
